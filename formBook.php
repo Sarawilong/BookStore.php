@@ -78,7 +78,7 @@ if (isset($_POST['title']) && isset($_POST['author'])) {
       <?php if (isset($_POST['author']) && $_POST['author'] == $row['author_id']) : ?>
         selected
       <?php endif; ?>
-      <?php if (isset($_GET['id']) && $book['book_id'] == $row['author_id']) : ?>
+      <?php if (isset($_GET['id']) && $book['author_id'] == $row['author_id']) : ?>
         selected
       <?php endif; ?>
     >
